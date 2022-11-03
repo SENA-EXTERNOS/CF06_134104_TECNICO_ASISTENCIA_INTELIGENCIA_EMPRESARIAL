@@ -2,13 +2,24 @@
   &-1
     animation: float1 3.5s ease-in-out infinite alternate
     position: absolute
-    top: 40%
-    right: 50%
+    top: 14%
+    right: 74%
   &-2
-    animation: float1 2.8s ease-in-out infinite alternate
+    animation: zoom-in-zoom-out 5.8s linear infinite
     position: absolute
-    top: 51%
-    right: 30%
+    top: 61%
+    right: 71%
+
+  &-3
+    animation: slidein 7.8s linear infinite
+    position: absolute
+    top: 20%
+    right: 11%
+  &-4
+    animation: float1 4.5s ease-in-out infinite alternate
+    position: absolute
+    top: 72%
+    right: 15%
 
 
 @keyframes float1
@@ -17,3 +28,128 @@
 
   100%
     transform: translateY(0px)
+
+@keyframes zoom-in-zoom-out
+  0% 
+    transform: scale(1, 1);
+  
+  50% 
+    transform: scale(1.2, 1.2);
+  
+  100% 
+    transform: scale(1, 1);
+
+@keyframes slidein 
+  0% 
+    margin-left: 100%;
+    width: 10%
+  
+
+  50%
+    margin-left: 0%;
+    width: 30%;
+
+  100% 
+    margin-left: 100%;
+    width: 10%
+
+.boton *, .boton--sm *
+  color: white !important
+
+.img-a 
+  display: block 
+  margin: auto   
+  width: auto
+  height: auto
+
+.fondo-1
+  background-image: url('../assets/curso/temas/tema_1/img_2.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+.fondo-2
+  background-image: url('../assets/curso/temas/tema_1/img_5.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+.fondo-3
+  background-image: url('../assets/curso/temas/tema_1/img_9.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+
+.fondo-4
+  background-image: url('../assets/curso/temas/tema_1/img_20.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+.tarjeta.color-secundario--borde 
+  background-color: #E3F5F7
+
+.caj_1
+  background-color: #FEF2E4
+  border-left: 10px solid #F9860B
+
+.cont_top
+  margin-top: -30px
+  
+.tabs-a__tab
+  background-color: #FEEBF4
+
+.acordion
+  .tarjeta--azul 
+    background-color: #FEF2E4
+  .acordion__activo
+    background-color: #E3F5F7!important
+    border: 3px solid #206897
+
+.bg_1
+  background-color: #E0EAF1
+  font-size: 18px 
+
+.bg_2
+  background: linear-gradient(180deg, rgba(32,104,151,1) 43%, rgba(7,165,182,1) 83%);
+
+.bg_3
+  background-color: #E3F5F7
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    background-color: #B0C0D2
+  .slyder-a__bullets__item--active
+    background-color: #206897 !important
+  .slyder-a__bullets__item
+    background-color: #95B8CE
+
+.bg_4
+  background-color: #FEF2E4
+
+.bg_5
+  background-color: white
+  border: 3px solid #F40B74
+  border-left: 34px solid #F40B74
+
+.bg_6
+  background-color: #F6F6F6
+  
+  .col_tar
+    background-color: #4E2E8E
+  .tarjeta 
+    border-radius: 0px;
+    min-width: 30vw !important
+
+.horizontal-scroll
+  align-items: stretch !important
+
+.pad
+  padding-right: 6vw !important
+  padding-left: 6vw !important
+
+.tarj_1
+  border-top-left-radius: 18px
+  border-top-right-radius: 18px
+  background-color: #FEE4F0
+
+.titulo-sexto.color-acento-contenido
+  border-left-color: #FF6B00
+
+
+
+
