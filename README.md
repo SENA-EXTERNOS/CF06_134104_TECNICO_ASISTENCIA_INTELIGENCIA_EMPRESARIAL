@@ -2,7 +2,7 @@
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://sena-externos.github.io/CF06_134104_TECNICO_ASISTENCIA_INTELIGENCIA_EMPRESARIAL](https://sena-externos.github.io/CF06_134104_TECNICO_ASISTENCIA_INTELIGENCIA_EMPRESARIAL)
 
 #
 
