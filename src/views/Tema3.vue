@@ -118,7 +118,7 @@
             img.img-a(src='@/assets/curso/temas/tema_3/img_4.png', alt='Texto que describa la imagen')        
           .col-md-6
             h4 Bases de datos internas
-            p Retomando el esquema de la figura 4, se tienen datos internos de desempeño como las cantidades producidas por tipo de producto, datos de desperdicio, satisfacción del cliente, fallas de procesos, entre otros, que son almacenados en bases de datos, particularmente en Excel (a menos que se posean software especializados), y que son utilizados para la preparación de los informes de gestión. 
+            p Retomando el esquema de la figura 4, se tienen datos internos de desempeño como las cantidades producidas por tipo de producto, datos de desperdicio, satisfacción del cliente, fallas de procesos, entre otros, que son almacenados en bases de datos, particularmente en Excel (a menos que se posean #[i software] especializados), y que son utilizados para la preparación de los informes de gestión. 
 
             p.mb-0 Las bases de datos internas, normalmente no poseen una estructura estándar, debido a que cada proceso, dentro de la empresa, maneja sus propias variables y tipos de datos. No obstante, al momento de preparar los indicadores de desempeño globales, es importante tener coordinación en el tipo de dato que se agrupa del total de los procesos. 
 
@@ -253,7 +253,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .caj_1.p-4
-          p.mb-0 Es importante denotar que aunque, como aprendiz, no posea conocimiento técnico en el diseño de bases de datos bajo programación de sistemas, las bases de datos de sistemas de información adquiridos como software, son diseñadas por los programadores (usualmente ingenieros informáticos o de sistemas), con algoritmos lógicos, recursos de buscadores, reglas informáticas, entre otros elementos. No es la intención solo aprender este oficio, sino comprender la utilidad del uso de las bases de datos en la empresa, y de la inmersión del aprendiz en la obtención, análisis y difusión de los datos a partir del uso de una base de datos.
+          p.mb-0 Es importante denotar que aunque, como aprendiz, no posea conocimiento técnico en el diseño de bases de datos bajo programación de sistemas, las bases de datos de sistemas de información adquiridos como #[i software], son diseñadas por los programadores (usualmente ingenieros informáticos o de sistemas), con algoritmos lógicos, recursos de buscadores, reglas informáticas, entre otros elementos. No es la intención solo aprender este oficio, sino comprender la utilidad del uso de las bases de datos en la empresa, y de la inmersión del aprendiz en la obtención, análisis y difusión de los datos a partir del uso de una base de datos.
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido.mt-5

@@ -20,7 +20,7 @@
     .row
       .col-lg-7.mb-5.mb-md-0.text-small(data-aos="fade-left")
         p.mb-0 En el marco de la analítica de datos, el análisis corresponde al proceso en el cual, luego de obtenidos los datos, se estructuran, agrupan, comparan, diferencian, se miden, se relacionan y finalmente sintetizan, con respecto a los intereses de una variable o realidad propia de la empresa, en la cual hacen falta esos datos para que un proceso gerencial, administrativo u operativo funcione, sea una máquina que amerite datos de entrada, o el establecimiento de indicadores de control de procesos o de productividad, o decisiones de operaciones de la empresa que se realizan a partir de los datos.
-        p Aunque el análisis es un proceso de la mente humana, las tendencias tecnológicas han desarrollado software que cumplen funciones integrales de apoyo al trabajo de las personas.
+        p Aunque el análisis es un proceso de la mente humana, las tendencias tecnológicas han desarrollado #[i software] que cumplen funciones integrales de apoyo al trabajo de las personas.
 
 
       .col-lg-5(data-aos="fade-right")
@@ -108,9 +108,9 @@
             p.text-center La manera de generar, procesar y almacenar los datos en los procesos.
 
       .tarjeta-avatar
-        img(src='@/assets/curso/temas/tema_1/img_15.svg' alt='AvatarTop')
-        .tarjeta.bg_1
-          .p-4.pad
+        img.img-a(src='@/assets/curso/temas/tema_1/img_15.svg' alt='AvatarTop')
+        .tarjeta.bg_1.pad
+          .p-4
             p.text-center Los datos claves.
 
       .tarjeta-avatar
@@ -155,7 +155,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_1/img_19.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0.text-small Las empresas que prestan el servicio de gobierno de datos, hacen uso de la inteligencia artificial (machine learning) soportada en software altamente especializados. Se basan en el modelo de Business Analytics (BA) o Analítica de negocios, y ofrecen soluciones confiables e innovadoras en el manejo de los datos. 
+            p.mb-0.text-small Las empresas que prestan el servicio de gobierno de datos, hacen uso de la inteligencia artificial #[i (machine learning)] soportada en #[i software] altamente especializados. Se basan en el modelo de #[i Business Analytics] (BA) o Analítica de negocios, y ofrecen soluciones confiables e innovadoras en el manejo de los datos. 
 
     p.mb-5 Para ampliar esta información, diríjase al material complementario y lea los documentos:
 
@@ -163,7 +163,7 @@
       .col-lg-5.mb-5.mb-md-0
         a.anexo.mb-4(href="https://www.redalyc.org/journal/5604/560459719010/html/" target="_blank")
           .anexo__icono
-            img(src="@/assets/template/icono-link.svg")
+            img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto
             p.mb-0 #[b Anexo]. Gobierno de datos, un potenciador de los sistemas de gestión de la calidad.
 
