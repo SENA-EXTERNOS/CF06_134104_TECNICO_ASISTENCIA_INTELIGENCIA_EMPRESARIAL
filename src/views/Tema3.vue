@@ -64,6 +64,9 @@
               li 
                 span.lista-ul__vineta
                 | Requerimientos de almacenaje
+              li 
+                span.lista-ul__vineta
+                | Otros
 
           .tarjeta.bg_5.p-3(x="76%" y="41%" numero="+")
             ul.mb-0
@@ -95,8 +98,7 @@
                 | Oportunidades de mejora
     
         .caj_1.p-4
-          p Como se observa en la Figura 4, si la empresa no posee herramientas tecnológicas que le permitan almacenar los datos, sería muy difícil hacer análisis de datos históricos, análisis en tiempo presente y proyecciones futuras, de comportamiento del sistema. 
-          p.mb-0 Es por esta razón que las bases de datos son reservorios o almacenes de datos que pueden ser compartidas en los sistemas empresariales e incluso, con sistemas de otras empresas, siempre que sean compatibles. 
+          p.mb-0 Como se observa en la Figura 4, si la empresa no posee herramientas tecnológicas que le permitan almacenar los datos, sería muy difícil hacer análisis de datos históricos, análisis en tiempo presente y proyecciones futuras, de comportamiento del sistema. Es por esta razón que las bases de datos son reservorios o almacenes de datos que pueden ser compartidas en los sistemas empresariales e incluso, con sistemas de otras empresas, siempre que sean compatibles. 
 
     p.mb-5 Las bases de datos se pueden clasificar según su relación con el sistema organizacional; así que pueden ser:
 
@@ -106,8 +108,7 @@
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_3/img_3.png', alt='Texto que describa la imagen')        
           .col-md-6
-            h4 Bases de datos externas
-            p Si se nota el elemento de las entradas, datos como los de la competencia, del tamaño y ubicación del mercado, o de la red de proveedores de un sector empresarial, pueden encontrarse en bases de datos externas. No todo el tiempo se poseen datos organizados como set de datos fácilmente utilizables por la empresa, sino que se consiguen datos aislados desde diferentes fuentes que deben ser alistados como sets de datos.
+            p Si se nota el elemento de las entradas, datos como los de la competencia, del tamaño y ubicación del mercado, o de la red de proveedores de un sector empresarial, pueden encontrarse en bases de datos externas. No todo el tiempo se poseen datos organizados como set de datos fácilmente utilizables por la empresa, sino que se consiguen datos aislados desde diferentes fuentes que deben ser alistados como #[i sets] de datos.
  
             p.mb-0 Por el contrario, otras fuentes externas manejan bases de datos debidamente organizadas; tal es el caso de los entes gubernamentales, en los que es política de la gobernanza de datos, mantener bases de datos de uso público, como lo determinan los gobiernos en sus políticas mundiales. Por ejemplo, en Colombia, el Departamento Administrativo Nacional de Estadística (DANE), debe construir y publicar bases de datos en términos económicos, demográficos, de salud, entre otros, exigidos por normativa internacional. 
 
@@ -117,7 +118,6 @@
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_3/img_4.png', alt='Texto que describa la imagen')        
           .col-md-6
-            h4 Bases de datos internas
             p Retomando el esquema de la figura 4, se tienen datos internos de desempeño como las cantidades producidas por tipo de producto, datos de desperdicio, satisfacción del cliente, fallas de procesos, entre otros, que son almacenados en bases de datos, particularmente en Excel (a menos que se posean #[i software] especializados), y que son utilizados para la preparación de los informes de gestión. 
 
             p.mb-0 Las bases de datos internas, normalmente no poseen una estructura estándar, debido a que cada proceso, dentro de la empresa, maneja sus propias variables y tipos de datos. No obstante, al momento de preparar los indicadores de desempeño globales, es importante tener coordinación en el tipo de dato que se agrupa del total de los procesos. 
@@ -138,7 +138,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 5. 
-      |  Tipos de organigramas
+      |  #[i Ejemplo de base de datos jerárquica]
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -149,8 +149,7 @@
         img.img-a(src='@/assets/curso/temas/tema_3/img_7.png', alt='Texto que describa la imagen')
 
       .col-lg-7.text-small(data-aos="fade-left")
-        p La característica fundamental de este tipo de bases de datos, es que en físico se ve como un árbol con ramas y sub-ramas, en las cuales se observan las jerarquías desde lo principal a lo que, en escalada, va tomando su lugar en dichos ramales. 
-        p Entonces, en estas bases de datos, se almacena la información en forma de registros con jerarquías, o el orden de aparición, o el orden de mayor a menor importancia de los datos, o el orden de aparición de los datos en el fenómeno estudiado.
+        p La característica fundamental de este tipo de bases de datos, es que en físico se ve como un árbol con ramas y sub-ramas, en las cuales se observan las jerarquías desde lo principal a lo que, en escalada, va tomando su lugar en dichos ramales. Entonces, en estas bases de datos, se almacena la información en forma de registros con jerarquías, o el orden de aparición, o el orden de mayor a menor importancia de los datos, o el orden de aparición de los datos en el fenómeno estudiado.
         .caj_1.p-4
           p.mb-0 En este tipo de bases de datos, técnicamente, cada jerarquía se denota como “nodo”. En el árbol habrá un “nodo raíz” y, a partir de este nodo, se irán creando otros nodos, todos interrelacionados. 
 
@@ -188,11 +187,11 @@
 
 
       .col-lg-5.text-small(data-aos="fade-left")
-        img.img-a(src='@/assets/curso/temas/tema_3/img_7.png', alt='Texto que describa la imagen')
+        img.img-a(src='@/assets/curso/temas/tema_3/img_8.png', alt='Texto que describa la imagen')
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 6. 
-      |  #[i Figura 6. Esquema gráfico de ubicación de interés de la red de datos en función de la infraestructura académica y administrativa ]
+      |  #[i Esquema gráfico de ubicación de interés de la red de datos en función de la infraestructura académica y administrativa ]
 
     img.img-a.mb-4(src='@/assets/curso/temas/tema_3/img_9.svg', alt='Texto que describa la imagen') 
     figcaption.bg_4.mb-5 
@@ -214,6 +213,9 @@
       .col-lg-5.text-small(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_3/img_11.png', alt='Texto que describa la imagen')
 
+    .fondo-3.p-2.mb-5
+      h3.mt-3 Bases de datos multidimensionales (MDB)
+
     .row.mb-5
       .col-lg-4.mb-5.mb-md-0(data-aos="fade-right")
         img.img-a(src='@/assets/curso/temas/tema_3/img_12.png', alt='Texto que describa la imagen')
@@ -231,8 +233,8 @@
                   p.text-small Para ampliar la información sobre su diseño y utilidad, lo invitamos a ver el video Base de datos multimensionales, el cual se encuentra en el material complementario. 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=CdbWOLcBHNQ" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+                    span Ver video
+                    i.fas.fa-play-circle.fa-solid.fa-sharp
 
     p.mb-5 Teniendo en cuenta lo anterior, hablemos sobre la clasificación de las bases de datos según su necesidad de modificación y adaptación. Desde el punto de vista tecnológico, las bases de datos poseen tipologías particulares, las cuales tienen que ver con su flexibilidad de modificación con base en las necesidades de los datos y de los modelos de gestión de la empresa, e incluso, con base en los avances tecnológicos. Estas clasificaciones se refieren a:
 
@@ -261,7 +263,7 @@
 
     .row.mb-5
       .col-lg-7.mb-5.mb-md-0(data-aos="fade-right")
-        p Los procesos ETL en sus siglas en inglés, sintetizan las actividades de extracción (E, extract), transformación (T, transform) y alistamiento, carga o almacenamiento (L, load), de los datos. Inicia en el momento en que un analista de datos o los involucrados en el proceso de analítica de datos, obtienen (extraen) los datos desde sus diversas fuentes, los agrupan y transforman en función de las necesidades de análisis, y los alistan, almacenan o disponen para su uso, por las partes interesadas.
+        p Los procesos ETL en sus siglas en inglés, sintetizan las actividades de extracción (E, #[i extract]), transformación (T, #[i transform]) y alistamiento, carga o almacenamiento (L, #[i load]), de los datos. Inicia en el momento en que un analista de datos o los involucrados en el proceso de analítica de datos, obtienen (extraen) los datos desde sus diversas fuentes, los agrupan y transforman en función de las necesidades de análisis, y los alistan, almacenan o disponen para su uso, por las partes interesadas.
         p La importancia de darle un nombre a estos tres procesos, es que el personal de la empresa, en los niveles estratégico, táctico y operativo, comprenda que la gestión de los datos no es aleatoria, sino que amerita procesos formales y darle a los datos, su debida importancia en el logro del desempeño de la organización.
 
       .col-lg-5.text-small(data-aos="fade-left")
@@ -277,21 +279,18 @@
             figure
               img.img-a(src='@/assets/curso/temas/tema_3/img_16.svg', alt='Texto que describa la imagen')
           .tarjeta.col_tar.text-white.p-3(x="13%" y="75%" numero="+")
-            h5 Etración
             p.mb-0 Tener claridad del tipo de dato necesario. 
             p.mb-0 Obtener datos de fuentes de datos relevantes, veraces y permanentemente disponibles.
             p.mb-0 Organizar los datos en función de las necesidades de análisis.
             p Conocer el modelo de base de datos requerida por la empresa.
 
           .tarjeta.col_tar.text-white.p-3(x="51%" y="13%" numero="+")
-            h5 Materia prima:
             p.mb-0 Obtener datos consistentes y coherentes a partir de la depuración.
             p.mb-0 Convertir, si es necesario, datos en otras unidades de análisis, de acuerdo con las necesidades de la empresa (compatibilidad de datos).
             p.mb-0 Realizar nuevos procesos de depuración de datos irrelevantes.
             p.mb-0 Ordenar y filtrar datos. 
             p.mb-0 Muchas veces es necesaria la traducción de datos en un lenguaje comprensible al interior de la empresa.
           .tarjeta.col_tar.text-white.p-3(x="90%" y="75%" numero="+")
-            h5 Carga
             p.mb-0 Definir el proceso de carga de los datos, la cual puede ser directa en función de la base de datos de origen, si es de fuentes externas o de otros procesos, o carga manual en la realidad diaria de los procesos, o carga mecánica programada con los equipos de producción.
             p Con el apoyo de expertos en informática, carga de datos complejos que requieren ser cargados bajo lenguajes de programación.
 

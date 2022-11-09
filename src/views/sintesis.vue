@@ -3,18 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    .row.mb-5.align-items-center
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.color-adicional-1.mb-5
-          h5 Asistencia para la inteligencia empresarial
-          br
-          | Síntesis: Fundamentos de administración, direccionamiento estratégico e inteligencia empresarial
-      .col-lg-2
-        img.img-a(src="@/assets/curso/temas/img_sin.png", alt="alt")
-
-    p Con el diagrama de actividades se termina la descripción de las tres técnicas usadas para la especificación y el análisis de requisitos, como se pudo analizar cada una de las técnicas nos brinda características para lograr representar gráficamente y de una forma clara, los requisitos que un usuario necesita poder cumplir satisfactoriamente con las solicitudes de los clientes y usuarios, por otro lado se pueden usar todas las técnicas en una especificación y análisis de requisitos si se ve la necesidad.
-    p.mb-5 A continuación, se muestra un mapa conceptual con los elementos más importantes desarrollados en este componente.
-
+    p.mb-5 El siguiente mapa integra los criterios y especificidades de los conocimientos expuestos en el presente componente formativo.
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
