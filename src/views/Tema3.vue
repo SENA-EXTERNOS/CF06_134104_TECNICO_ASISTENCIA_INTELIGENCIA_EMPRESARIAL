@@ -25,7 +25,7 @@
       .col-lg-10
         .titulo-sexto.color-acento-contenido.mb-5
           h5 Figura 4. 
-          | #[i Necesidades de entradas (inputs) y generación de datos sistema empresarial] 
+          p.mb-0 #[i Necesidades de entradas (inputs) y generación de datos sistema empresarial] 
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -138,7 +138,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 5. 
-      |  #[i Ejemplo de base de datos jerárquica]
+      p.mb-0  #[i Ejemplo de base de datos jerárquica]
 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -191,7 +191,7 @@
 
     .titulo-sexto.color-acento-contenido.mb-5
       h5 Figura 6. 
-      |  #[i Esquema gráfico de ubicación de interés de la red de datos en función de la infraestructura académica y administrativa ]
+      p.mb-0  #[i Esquema gráfico de ubicación de interés de la red de datos en función de la infraestructura académica y administrativa ]
 
     img.img-a.mb-4(src='@/assets/curso/temas/tema_3/img_9.svg', alt='Texto que describa la imagen') 
     figcaption.bg_4.mb-5 

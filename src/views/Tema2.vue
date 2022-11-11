@@ -149,7 +149,7 @@
       .col-lg-5
         .titulo-sexto.color-acento-contenido
             h5 Figura 2. 
-            |  #[i Modelo de alistamiento de set de datos] 
+            p.mb-0 #[i Modelo de alistamiento de set de datos] 
     .row.justify-content-center.mb-5
       .col-lg-10
         img.img-a.mb-3(src='@/assets/curso/temas/tema_2/img_14.svg', alt='Texto que describa la imagen') 
@@ -169,7 +169,7 @@
       .col-lg-8
         .titulo-sexto.color-acento-contenido
           h5 Figura 3. 
-          | #[i Modelo de alistamiento de set de datos para el proceso de consultoría]
+          p.mb-0 #[i Modelo de alistamiento de set de datos para el proceso de consultoría]
         img.img-a.mb-3(src='@/assets/curso/temas/tema_2/img_16.svg', alt='Texto que describa la imagen') 
         figcaption.bg_4 
           p.mb-0 Nota. Tomado de Consorcio POT Huila – Informe etapa de alistamiento (2019).
