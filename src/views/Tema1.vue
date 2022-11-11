@@ -129,7 +129,7 @@
     .row.justify-content-center.mb-5
       .col-lg-6
         .titulo-sexto.color-acento-contenido
-          h5 Figura 1.
+          h5 Figura 1
           p.mb-0 #[i Componentes del gobierno o gobernanza de datos]
 
     img.img-a.mb-5(src='@/assets/curso/temas/tema_1/img_18.svg', alt='Texto que describa la imagen') 

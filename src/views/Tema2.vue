@@ -148,7 +148,7 @@
       .col-lg-1
       .col-lg-5
         .titulo-sexto.color-acento-contenido
-            h5 Figura 2. 
+            h5 Figura 2 
             p.mb-0 #[i Modelo de alistamiento de set de datos] 
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -168,7 +168,7 @@
     .row.justify-content-center
       .col-lg-8
         .titulo-sexto.color-acento-contenido
-          h5 Figura 3. 
+          h5 Figura 3 
           p.mb-0 #[i Modelo de alistamiento de set de datos para el proceso de consultoría]
         img.img-a.mb-3(src='@/assets/curso/temas/tema_2/img_16.svg', alt='Texto que describa la imagen') 
         figcaption.bg_4 
