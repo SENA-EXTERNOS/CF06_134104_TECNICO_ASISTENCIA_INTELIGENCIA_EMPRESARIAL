@@ -11,14 +11,14 @@
       .col-lg-5.mb-5.mb-md-0(data-aos="fade-right")
         img.img-a(src='@/assets/curso/temas/tema_1/img_3.png', alt='Texto que describa la imagen')
 
-      .col-lg-7.text-small(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         p Para comenzar, debemos comprender el análisis de los datos como un proceso sistemático que amerita de los datos como insumo, pero además, de procesos de pensamiento y de herramientas tecnológicas para poder extraer de los datos la información precisa, certera y oportuna que amerita la empresa para el mejoramiento de sus procesos o, en general, para cualquier tipo de toma de decisiones, sea general o específica. Los datos que se obtienen de los procesos de la empresa, o de fuentes externas, luego del proceso de análisis, pasan a una etapa de aseguramiento, lo que se constituye en el resguardo de los datos bajo los principios y necesidades de la empresa. 
 
         .caj_1.p-4
           p.mb-0 Ahora, la analítica de datos es un proceso sistemático que requiere de diversos elementos como insumo (los datos), de los procesos de observación de la persona quien realiza los análisis, y de las herramientas tecnológicas en las cuales se apoya, para tal fin.
 
     .row
-      .col-lg-7.mb-5.mb-md-0.text-small(data-aos="fade-left")
+      .col-lg-7.mb-5.mb-md-0(data-aos="fade-left")
         p.mb-0 En el marco de la analítica de datos, el análisis corresponde al proceso en el cual, luego de obtenidos los datos, se estructuran, agrupan, comparan, diferencian, se miden, se relacionan y finalmente sintetizan, con respecto a los intereses de una variable o realidad propia de la empresa, en la cual hacen falta esos datos para que un proceso gerencial, administrativo u operativo funcione, sea una máquina que amerite datos de entrada, o el establecimiento de indicadores de control de procesos o de productividad, o decisiones de operaciones de la empresa que se realizan a partir de los datos. Aunque el análisis es un proceso de la mente humana, las tendencias tecnológicas han desarrollado #[i software] que cumplen funciones integrales de apoyo al trabajo de las personas.
 
 
@@ -32,14 +32,14 @@
     TabsA.color-acento-botones.mb-5
       .tarjeta.color-secundario--borde.fondo-2.p-4(titulo="Analítica de entrada")
         .row
-          .col-lg-7.mb-5.mb-md-0.text-small
+          .col-lg-7.mb-5.mb-md-0
             p.mb-0 La analítica de datos tiene una causa, la cual es la obtención de información sistematizada, debido a que en la empresa se requiere información para poner en marcha los procesos de producción o de servicio, para mejorarlos, para crear nuevos procesos o, sencillamente, para conocer el comportamiento de la oferta y la demanda de un producto, o las tendencias de los factores económicos de una región que pueden afectar a la empresa, entre otros. Lo importante es saber que el funcionamiento de los procesos, amerita la entrada de datos.  
           .col-lg-5
             img.img-a(src='@/assets/curso/temas/tema_1/img_6.png', alt='Texto que describa la imagen')
       
       .tarjeta.color-secundario--borde.fondo-2.p-4(titulo="Analítica de salida")
         .row
-          .col-lg-7.mb-5.mb-md-0.text-small
+          .col-lg-7.mb-5.mb-md-0
             p.mb-0 Si se observan los datos como consecuencia, entonces pasan a tomar un papel clave como salida o resultados. De la operación de los procesos de manufactura, o de la prestación de los servicios, se obtienen datos de salida, sean volúmenes de venta, número de cartera de clientes atendidos, cantidades producidas, unidades fuera de especificaciones, niveles de rotación de recurso humano, cantidad de nuevos productos o servicios, crecimiento de la competencia, entre otros, que pasan luego al proceso de retroalimentación para el análisis de los resultados globales del sistema empresarial y el establecimiento de correctivos.   
           .col-lg-5
             img.img-a(src='@/assets/curso/temas/tema_1/img_11.png', alt='Texto que describa la imagen')
@@ -48,13 +48,13 @@
 
     TabsC.color-acento-botones.mb-5
       .py-3.py-md-4.fondo-2(titulo="Fuentes internas de datos")
-        .row.text-small
+        .row
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_1/img_7.png', alt='Texto que describa la imagen')        
           .col-md-6
             p.mb-0 Son conocidas como fuente primaria de datos y son específicas de los procesos, producidos por la empresa y por particulares para cada proceso. Luego que se ejecuta un proceso y se obtienen resultados, esos datos empiezan a funcionar como “datos históricos”, los cuales se van acumulando en bases de datos, y sirven para hacer comparaciones de mejora o de bajas de desempeño de la propia organización.  Hay datos internos que se consideran “estándares”, y corresponden a las metas iniciales que, en un período de actividad empresarial, se constituyen en resultados esperados; por ejemplo: metas de venta generales en cantidades monetarias, metas de aumento de cartera de clientes, metas de producción, metas de disminución de índices de fallas en las maquinarias, entre otros. 
       .py-3.py-md-4.fondo-2(titulo="Fuentes externas de datos")
-        .row.text-small
+        .row
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_1/img_12.png', alt='Texto que describa la imagen')        
           .col-md-6
@@ -148,9 +148,9 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema_1/img_19.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0.text-small Las empresas que prestan el servicio de gobierno de datos, hacen uso de la inteligencia artificial #[i (machine learning)] soportada en #[i software] altamente especializados. Se basan en el modelo de #[i Business Analytics] (BA) o Analítica de negocios, y ofrecen soluciones confiables e innovadoras en el manejo de los datos. 
+            p.mb-0 Las empresas que prestan el servicio de gobierno de datos, hacen uso de la inteligencia artificial #[i (machine learning)] soportada en #[i software] altamente especializados. Se basan en el modelo de #[i Business Analytics] (BA) o Analítica de negocios, y ofrecen soluciones confiables e innovadoras en el manejo de los datos. 
 
-    p.mb-5 Para ampliar esta información, diríjase al material complementario y lea los documentos:
+    p.mb-5 Para ampliar esta información, diríjase al material complementario y lea los siguientes documentos:
 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-5.mb-md-0

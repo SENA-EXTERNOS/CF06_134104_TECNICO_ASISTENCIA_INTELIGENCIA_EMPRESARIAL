@@ -154,7 +154,7 @@ export default {
     },
     {
       tema:
-        'Análisis exploratorio de datos y alistamiento de los sets de datos',
+        'Análisis exploratorio de datos y alistamiento de los <i>sets</i> de datos',
       referencia:
         'IBM Cloud Education. (2020). <em>Análisis exploratorio de datos</em>. IBM Cloud Education. ',
       tipo: 'Página web',
@@ -162,7 +162,7 @@ export default {
     },
     {
       tema:
-        'Análisis exploratorio de datos y alistamiento de los sets de datos',
+        'Análisis exploratorio de datos y alistamiento de los <i>sets</i> de datos',
       referencia:
         'Consorcio POT Huila. (2019). <em>Informe etapa de Alistamiento. Contrato de consultoría no. 1029 de 2019. “Elaborar el plan de ordenamiento territorial del Departamento del Huila”</em>. ',
       tipo: 'PDF',

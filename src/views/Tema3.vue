@@ -19,13 +19,10 @@
     #t_3_1.titulo-segundo.color-acento-contenido.mt-5
       h2 3.1 Tipos de bases de datos
 
-    p.mb-5 Hasta este punto se ha estudiado que los datos poseen diferentes fuentes, tipos y maneras de procesarlos; además, diversos datos satisfacen distintas necesidades para los procesos empresariales. Lo importante es retomar que, en todo el contexto del sistema empresarial, se ameritan datos, como se muestra en la Figura 4.
+    p.mb-5 Hasta este punto se ha estudiado que los datos poseen diferentes fuentes, tipos y maneras de procesarlos; además, diversos datos satisfacen distintas necesidades para los procesos empresariales. Lo importante es retomar que, en todo el contexto del sistema empresarial, se ameritan datos, como se observa seguidamente:
 
     .row.justify-content-center.mb-5
       .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-5
-          h5 Figura 4 
-          p.mb-0 #[i Necesidades de entradas (inputs) y generación de datos sistema empresarial] 
         ImagenInfografica.color-acento-botones.mb-5
           template(v-slot:imagen)
             figure
@@ -98,7 +95,7 @@
                 | Oportunidades de mejora
     
         .caj_1.p-4
-          p.mb-0 Como se observa en la Figura 4, si la empresa no posee herramientas tecnológicas que le permitan almacenar los datos, sería muy difícil hacer análisis de datos históricos, análisis en tiempo presente y proyecciones futuras, de comportamiento del sistema. Es por esta razón que las bases de datos son reservorios o almacenes de datos que pueden ser compartidas en los sistemas empresariales e incluso, con sistemas de otras empresas, siempre que sean compatibles. 
+          p.mb-0 Como lo muestra el anterior esquema, si la empresa no posee herramientas tecnológicas que le permitan almacenar los datos, sería muy difícil hacer análisis de datos históricos, análisis en tiempo presente y proyecciones futuras de comportamiento del sistema. Es por esta razón que las bases de datos son reservorios o almacenes de datos que pueden ser compartidas en los sistemas empresariales, inclusive con sistemas de otras empresas, siempre que sean compatibles. 
 
     p.mb-5 Las bases de datos se pueden clasificar según su relación con el sistema organizacional; así que pueden ser:
 
@@ -108,7 +105,7 @@
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_3/img_3.png', alt='Texto que describa la imagen')        
           .col-md-6
-            p Si se nota el elemento de las entradas, datos como los de la competencia, del tamaño y ubicación del mercado, o de la red de proveedores de un sector empresarial, pueden encontrarse en bases de datos externas. No todo el tiempo se poseen datos organizados como set de datos fácilmente utilizables por la empresa, sino que se consiguen datos aislados desde diferentes fuentes que deben ser alistados como #[i sets] de datos.
+            p Si se nota el elemento de las entradas, datos como los de la competencia, del tamaño y ubicación del mercado, o de la red de proveedores de un sector empresarial, pueden encontrarse en bases de datos externas. No todo el tiempo se poseen datos organizados como #[i set] de datos fácilmente utilizables por la empresa, sino que se consiguen datos aislados desde diferentes fuentes que deben ser alistados como #[i sets] de datos.
  
             p.mb-0 Por el contrario, otras fuentes externas manejan bases de datos debidamente organizadas; tal es el caso de los entes gubernamentales, en los que es política de la gobernanza de datos, mantener bases de datos de uso público, como lo determinan los gobiernos en sus políticas mundiales. Por ejemplo, en Colombia, el Departamento Administrativo Nacional de Estadística (DANE), debe construir y publicar bases de datos en términos económicos, demográficos, de salud, entre otros, exigidos por normativa internacional. 
 
@@ -134,10 +131,10 @@
 
     p Estas bases de datos se construyen cuando se manejan datos dependientes o relacionados, es decir, datos cuyo resultado está relacionado con un dato previo, y que luego genera otro dato consecuente. Por ejemplo, los datos de los padres generan información con respecto a los hijos y de estos, hacia los hijos de los hijos (nietos); de esta manera, se puede tratar una base de datos de tipo generacional. 
 
-    p.mb-5 Ahora, en la Figura 5 se observa un ejemplo relacionado con la empresa. 
+    p.mb-5 Observe, a continuación, un ejemplo relacionado con las empresas:
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 5 
+      h5 Figura 3 
       p.mb-0  #[i Ejemplo de base de datos jerárquica]
 
     .row.justify-content-center.mb-5
@@ -148,7 +145,7 @@
       .col-lg-5.mb-5.mb-md-0(data-aos="fade-right")
         img.img-a(src='@/assets/curso/temas/tema_3/img_7.png', alt='Texto que describa la imagen')
 
-      .col-lg-7.text-small(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         p La característica fundamental de este tipo de bases de datos, es que en físico se ve como un árbol con ramas y sub-ramas, en las cuales se observan las jerarquías desde lo principal a lo que, en escalada, va tomando su lugar en dichos ramales. Entonces, en estas bases de datos, se almacena la información en forma de registros con jerarquías, o el orden de aparición, o el orden de mayor a menor importancia de los datos, o el orden de aparición de los datos en el fenómeno estudiado.
         .caj_1.p-4
           p.mb-0 En este tipo de bases de datos, técnicamente, cada jerarquía se denota como “nodo”. En el árbol habrá un “nodo raíz” y, a partir de este nodo, se irán creando otros nodos, todos interrelacionados. 
@@ -183,22 +180,24 @@
       .col-lg-7.mb-5.mb-md-0(data-aos="fade-right")
         p En este caso, a diferencia de la jerarquía, en la cual un dato depende de solo un nivel jerárquico anterior, en las bases de datos en red, los datos pueden tener más de un relacionamiento, y no interesa la jerarquía, sino los nodos de relación. Por ejemplo, en un problema de producción, pueden estar involucrados los datos de desempeño del talento humano, o los datos de la cantidad de proveedores y tiempos de entrega, o los datos de fallas de la maquinaria. Por esto, al estar un nodo relacionado con muchos más, se hacen bases de datos más complejas. 
 
-        p La forma de este tipo de base de datos se puede observar a continuación, con respecto a la instalación de un sistema interconectado de datos en una universidad. En la Figura 6 se observa el esquema gráfico de ubicación de interés de la red de datos, en función de la infraestructura académica y administrativa.
+        p A continuación, se puede observar la forma de este tipo de base de datos, con respecto a la instalación de un sistema interconectado de datos en una universidad. En la siguiente figura, se observa el esquema gráfico de ubicación de interés de la red de datos, en función de la infraestructura académica y administrativa.
 
 
-      .col-lg-5.text-small(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_3/img_8.png', alt='Texto que describa la imagen')
 
     .titulo-sexto.color-acento-contenido.mb-5
-      h5 Figura 6 
+      h5 Figura 4 
       p.mb-0  #[i Esquema gráfico de ubicación de interés de la red de datos en función de la infraestructura académica y administrativa ]
 
     img.img-a.mb-4(src='@/assets/curso/temas/tema_3/img_9.svg', alt='Texto que describa la imagen') 
     figcaption.bg_4.mb-5 
       p.mb-0 Nota. Tomado de Galarza (2018).
 
-    p.mb-5 Mientras que en la siguiente Figura 7, se muestra el diseño de nodos de una base de datos de la red, con base en el origen de los datos. 
-
+    p.mb-5 En este otro esquema, se muestra el diseño de nodos de una base de datos de la red, con base en el origen de los datos: 
+    .titulo-sexto.color-acento-contenido.mb-5
+      h5 Figura 5 
+      p.mb-0  #[i Estructura del diseño de la base de datos en red] 
     img.img-a.mb-4(src='@/assets/curso/temas/tema_3/img_10.svg', alt='Texto que describa la imagen') 
     figcaption.bg_4.mb-5 
       p.mb-0 Nota. Tomado de Galarza (2018).
@@ -210,7 +209,7 @@
       .col-lg-7.mb-5.mb-md-0(data-aos="fade-right")
         p Las bases de datos relacionadas son aquellas bases de datos de diferentes fuentes, que al ser coherentes y consistentes, pueden ser fácilmente relacionadas, comparadas y contrastadas; es decir, son bases de datos independientes, pero que poseen características similares en su diseño, y se hace fácil, para el analista, utilizarlas como base de comparación, e incluso para alimentar de la mejor manera, la base de datos original. Por ejemplo, al interior de la empresa, pueden ser base de datos relacionales las de producción de la línea 1 de ensamble de un producto, con los de la línea 2; o en el caso de producción de panes, la base de datos de costos de producción (estructura de costos), de los panes del tipo 1, con los de los panes de tipo 2. En el caso que la productividad de un tipo de pan sea mejor que la del otro tipo, pueden compararse datos y detectarse variables claves que pueden aportar a la mejora.
 
-      .col-lg-5.text-small(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_3/img_11.png', alt='Texto que describa la imagen')
 
     .fondo-3.p-2.mb-5
@@ -219,7 +218,7 @@
     .row.mb-5
       .col-lg-4.mb-5.mb-md-0(data-aos="fade-right")
         img.img-a(src='@/assets/curso/temas/tema_3/img_12.png', alt='Texto que describa la imagen')
-      .col-lg-7.text-small(data-aos="fade-left")
+      .col-lg-7(data-aos="fade-left")
         p Por otro lado, las bases de datos multidimensionales son las bases de datos más complejas por la cantidad de datos que relacionan, la cantidad de tipo de datos, los atributos de los datos, entre otros aspectos. La construcción la realizan expertos, pero una vez diseñadas en la empresa, es posible su uso para el desarrollo de los procesos. Se visualizan para los diseñadores como “cubo de datos” y, en programación informática, los datos se almacenan interconectados. 
 
         .tarjeta.bg_2.p-3.mb-5
@@ -230,7 +229,7 @@
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
                   h3.mb-1 Base de datos multimensionales
-                  p.text-small Para ampliar la información sobre su diseño y utilidad, lo invitamos a ver el video Base de datos multimensionales, el cual se encuentra en el material complementario. 
+                  p Para ampliar la información sobre su diseño y utilidad, lo invitamos a ver el video Base de datos multimensionales, el cual se encuentra en el material complementario. 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=CdbWOLcBHNQ" target="_blank")
                     span Ver video
@@ -255,7 +254,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .caj_1.p-4
-          p.mb-0 Es importante denotar que aunque, como aprendiz, no posea conocimiento técnico en el diseño de bases de datos bajo programación de sistemas, las bases de datos de sistemas de información adquiridos como #[i software], son diseñadas por los programadores (usualmente ingenieros informáticos o de sistemas), con algoritmos lógicos, recursos de buscadores, reglas informáticas, entre otros elementos. No es la intención solo aprender este oficio, sino comprender la utilidad del uso de las bases de datos en la empresa, y de la inmersión del aprendiz en la obtención, análisis y difusión de los datos a partir del uso de una base de datos.
+          p.mb-0 Las bases de datos de sistemas de información adquiridos como software, son diseñadas por los programadores (usualmente ingenieros informáticos o de sistemas), con algoritmos lógicos, recursos de buscadores, reglas informáticas, entre otros elementos. No es la intención solo aprender este oficio sino comprender, también, la utilidad del uso de las bases de datos en la empresa, y de la inmersión del aprendiz en la obtención, análisis y difusión de los datos, a partir del uso de una base de datos.
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido.mt-5
@@ -266,7 +265,7 @@
         p Los procesos ETL en sus siglas en inglés, sintetizan las actividades de extracción (E, #[i extract]), transformación (T, #[i transform]) y alistamiento, carga o almacenamiento (L, #[i load]), de los datos. Inicia en el momento en que un analista de datos o los involucrados en el proceso de analítica de datos, obtienen (extraen) los datos desde sus diversas fuentes, los agrupan y transforman en función de las necesidades de análisis, y los alistan, almacenan o disponen para su uso, por las partes interesadas.
         p La importancia de darle un nombre a estos tres procesos, es que el personal de la empresa, en los niveles estratégico, táctico y operativo, comprenda que la gestión de los datos no es aleatoria, sino que amerita procesos formales y darle a los datos, su debida importancia en el logro del desempeño de la organización.
 
-      .col-lg-5.text-small(data-aos="fade-left")
+      .col-lg-5(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_3/img_15.png', alt='Texto que describa la imagen')
 
     p Los tres puntos claves en los procesos ETL son:
@@ -299,16 +298,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .caj_1.p-4
-          p.mb-0 Ha finalizado el estudio de este recurso educativo. Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
-
-
-   
-
-
-
-
-
-
+          p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal, donde encontrará la síntesis, una actividad didáctica para reforzar los conceptos estudiados, material complementario, entre otros.
 
 </template>
 
