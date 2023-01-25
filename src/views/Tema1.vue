@@ -124,10 +124,8 @@
         .caj_1.p-4
           p.mb-0 Se denota como gobierno, porque la gestión de los datos y la manera de administrar se somete a políticas propias de la empresa. Son varios los aspectos por los cuales no todas las empresas administran este concepto: por no ser la gestión de los datos un elemento estratégico de la gestión; porque los datos que se manejan no son cuantiosos ni complejos; porque la confidencialidad no forma parte de la política empresarial; porque no se poseen los sistemas de información adecuados para el resguardo de los datos. A pesar de todo esto, está demostrada la importancia de la gestión de datos como elemento de productividad, calidad y competitividad empresarial.
 
-    p.mb-5 En la Figura 1 se presentan los componentes del gobierno o gobernanza de datos.
-
     .row.justify-content-center.mb-5
-      .col-lg-6
+      .col-lg-6 
         .titulo-sexto.color-acento-contenido
           h5 Figura 1
           p.mb-0 #[i Componentes del gobierno o gobernanza de datos]

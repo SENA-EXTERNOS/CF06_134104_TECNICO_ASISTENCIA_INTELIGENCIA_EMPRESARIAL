@@ -254,7 +254,7 @@
     .row.justify-content-center.mb-5
       .col-lg-10
         .caj_1.p-4
-          p.mb-0 Las bases de datos de sistemas de información adquiridos como software, son diseñadas por los programadores (usualmente ingenieros informáticos o de sistemas), con algoritmos lógicos, recursos de buscadores, reglas informáticas, entre otros elementos. No es la intención solo aprender este oficio sino comprender, también, la utilidad del uso de las bases de datos en la empresa, y de la inmersión del aprendiz en la obtención, análisis y difusión de los datos, a partir del uso de una base de datos.
+          p.mb-0 Las bases de datos de sistemas de información adquiridos como <i>software</i>, son diseñadas por los programadores (usualmente ingenieros informáticos o de sistemas), con algoritmos lógicos, recursos de buscadores, reglas informáticas, entre otros elementos. No es la intención solo aprender este oficio sino comprender, también, la utilidad del uso de las bases de datos en la empresa, y de la inmersión del aprendiz en la obtención, análisis y difusión de los datos, a partir del uso de una base de datos.
 
     separador
     #t_3_2.titulo-segundo.color-acento-contenido.mt-5
