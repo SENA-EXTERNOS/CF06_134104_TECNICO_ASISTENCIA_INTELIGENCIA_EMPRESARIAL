@@ -40,7 +40,7 @@
       .tarjeta.color-secundario--borde.fondo-2.p-4(titulo="Analítica de salida")
         .row
           .col-lg-7.mb-5.mb-md-0
-            p.mb-0 Si se observan los datos como consecuencia, entonces pasan a tomar un papel clave como salida o resultados. De la operación de los procesos de manufactura, o de la prestación de los servicios, se obtienen datos de salida, sean volúmenes de venta, número de cartera de clientes atendidos, cantidades producidas, unidades fuera de especificaciones, niveles de rotación de recurso humano, cantidad de nuevos productos o servicios, crecimiento de la competencia, entre otros, que pasan luego al proceso de retroalimentación para el análisis de los resultados globales del sistema empresarial y el establecimiento de correctivos.   
+            p.mb-0 Si se observan los datos como consecuencia, entonces pasan a tomar un papel clave como salida o resultados. De la operación de los procesos de manufactura, o de la prestación de los servicios, se obtienen datos de salida, sean volúmenes de venta, número de carteras de clientes atendidos, cantidades producidas, unidades fuera de especificaciones, niveles de rotación de recurso humano, cantidad de nuevos productos o servicios, crecimiento de la competencia, entre otros, que pasan luego al proceso de retroalimentación para el análisis de los resultados globales del sistema empresarial y el establecimiento de correctivos.   
           .col-lg-5
             img.img-a(src='@/assets/curso/temas/tema_1/img_11.png', alt='Texto que describa la imagen')
 
@@ -152,7 +152,7 @@
 
     .row.justify-content-center.mb-5
       .col-lg-5.mb-5.mb-md-0
-        a.anexo.mb-4(href="https://www.redalyc.org/journal/5604/560459719010/html/" target="_blank")
+        a.anexo.mb-4(href="https://revistas.usantotomas.edu.co/index.php/signos/article/view/4074/3902" target="_blank")
           .anexo__icono
             img(src="@/assets/template/icono-pdf.svg")
           .anexo__texto

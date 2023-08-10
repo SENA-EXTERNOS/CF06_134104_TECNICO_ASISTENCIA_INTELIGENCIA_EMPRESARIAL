@@ -228,7 +228,7 @@
             .col
               .row.justify-content-between.align-items-center
                 .col.mb-3.mb-sm-0.text-white
-                  h3.mb-1 Base de datos multimensionales
+                  h3.mb-1 Base de datos multidimensionales
                   p Para ampliar la información sobre su diseño y utilidad, lo invitamos a ver el video Base de datos multimensionales, el cual se encuentra en el material complementario. 
                 .col-sm-auto
                   a.boton.color-acento-botones.texto-blanco(href="https://www.youtube.com/watch?v=CdbWOLcBHNQ" target="_blank")

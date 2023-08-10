@@ -99,7 +99,7 @@
         img.img-a(src='@/assets/curso/temas/tema_2/img_9.png', alt='Texto que describa la imagen')
 
       .col-lg-7(data-aos="fade-left")
-        p Las herramientas de gestión de datos han variado, con el transcurrir del tiempo, al ritmo de la evolución tecnológica. Así, como se conoce a Excel, una herramienta básica de gestión de datos cuantitativos, la tendencia tecnológica en la administración de los datos, ha generado herramientas como la “la nube” o reservorio “no físico” (desde 1990); es decir, no se encuentra alojado en el disco duro del computador, y funciona como almacenador de datos masivos (Solved Magazine, 2020). Esta herramienta es ofrecida por la Internet, y servidores como Google, la maneja en una nube conocida como Drive, que permite a las personas el almacenamiento gratuito hasta una cierta capacidad de datos. Mundialmente, el Google Drive es reconocido como la herramienta que reemplazó a Google Docs, dadas sus mayores y mejores utilidades y capacidades de almacenamiento y transmisión y modificación de la información, en grupos de trabajo. 
+        p Las herramientas de gestión de datos han variado, con el transcurrir del tiempo, al ritmo de la evolución tecnológica. Así, como se conoce a Excel, una herramienta básica de gestión de datos cuantitativos, la tendencia tecnológica en la administración de los datos, ha generado herramientas como la “la nube” o reservorio “no físico” (desde 1990); es decir, no se encuentra alojado en el disco duro del computador, y funciona como almacén de datos masivos (Solved Magazine, 2020). Esta herramienta es ofrecida por la Internet, y servidores como Google, la maneja en una nube conocida como Drive, que permite a las personas el almacenamiento gratuito hasta una cierta capacidad de datos. Mundialmente, el Google Drive es reconocido como la herramienta que reemplazó a Google Docs, dadas sus mayores y mejores utilidades y capacidades de almacenamiento y transmisión y modificación de la información, en grupos de trabajo. 
 
 
     separador
@@ -134,7 +134,7 @@
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_2/img_12.png', alt='Texto que describa la imagen')        
           .col-md-6
-            p.mb-0 “Alistar en <em>sets</em>”, implica preparar los datos en agrupamientos más complejos como variables, conjuntos o rangos de datos, los cuales, al estar renombrados y agrupados con códigos por tipos de datos, permiten un mejor registro y utilización. El alistamiento se realiza a través de las herramientas de gestión de datos por parte de los programadores, razón por la cual es totalmente necesaria la multidisciplinariedad en la administración empresarial, en el caso que se quiera hacer de los datos un activo real de la gestión empresarial. 
+            p.mb-0 “Alistar en <em>sets</em>”, implica preparar los datos en agrupamientos más complejos como variables, conjuntos o rangos de datos, los cuales, al estar renombrados y agrupados con códigos por tipos de datos, permiten un mejor registro y utilización. El alistamiento se realiza a través de las herramientas de gestión de datos por parte de los programadores, razón por la cual es totalmente necesaria la multidisciplinariedad en la administración empresarial, en el caso de que se quiera hacer de los datos un activo real de la gestión empresarial. 
 
       .py-3.py-md-4.fondo-2(titulo="¿Qué sucede cuando se poseen los datos?")
         .row
