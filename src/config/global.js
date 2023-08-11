@@ -237,7 +237,8 @@ export default {
     {
       referencia:
         'Consorcio POT Huila. (2019). <em>Informe etapa de Alistamiento. Contrato de consultoría no. 1029 de 2019 “Elaborar el plan de ordenamiento territorial del Departamento del Huila</em>”.',
-      descarga: 'downloads/Informe-Etapa-Alistamiento.pdf',
+      link:
+        'https://r.search.yahoo.com/_ylt=AwrFNvcSRNVkasAAp_Srcgx.;_ylu=Y29sbwNiZjEEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1691726994/RO=10/RU=https%3a%2f%2fwww.sirhuila.gov.co%2fwp-content%2fuploads%2f2022-ACTUALIZACIONES%2fPOD%2fAlistamiento%2fInforme-Etapa-Alistamiento.pdf/RK=2/RS=8x9JmI3dAJp67T1YN2dZPI2qx0M-',
     },
 
     {
