@@ -115,7 +115,7 @@
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_3/img_4.png', alt='Texto que describa la imagen')        
           .col-md-6
-            p Retomando el esquema de la figura 4, se tienen datos internos de desempeño como las cantidades producidas por tipo de producto, datos de desperdicio, satisfacción del cliente, fallas de procesos, entre otros, que son almacenados en bases de datos, particularmente en Excel (a menos que se posean #[i software] especializados), y que son utilizados para la preparación de los informes de gestión. 
+            p De acuerdo con el esquema de la figura 4, se tienen datos internos de desempeño como las cantidades producidas por tipo de producto, datos de desperdicio, satisfacción del cliente, fallas de procesos, entre otros, que son almacenados en bases de datos, particularmente en Excel (a menos que se posean #[i software] especializados), y que son utilizados para la preparación de los informes de gestión. 
 
             p.mb-0 Las bases de datos internas, normalmente no poseen una estructura estándar, debido a que cada proceso, dentro de la empresa, maneja sus propias variables y tipos de datos. No obstante, al momento de preparar los indicadores de desempeño globales, es importante tener coordinación en el tipo de dato que se agrupa del total de los procesos. 
 
@@ -156,19 +156,19 @@
       .col-lg-9.mb-4.mb-md-0(data-aos="fade-right")
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
           diz(titulo="Datos de diversas fuentes")
-            p.mb-0 #[b Para alimentar la base de datos, se ameritan los datos de diversas fuentes]. Por ejemplo, harán falta datos de fuentes externas, o datos de diferentes unidades organizativas. En este caso, cuando se poseen sistemas de información dentro de la empresa, es fundamental mantener al día, la carga de los datos.  
+            p.mb-0 #[b Para alimentar la base de datos, se ameritan los datos de diversas fuentes]: por ejemplo, harán falta datos de fuentes externas, o datos de diferentes unidades organizativas. En este caso, cuando se poseen sistemas de información dentro de la empresa, es fundamental mantener al día, la carga de los datos.  
 
           diz(titulo="Datos independientes")
-            p.mb-0 #[b Los datos son independientes]. Pese a que se encuentran relacionados, corresponden a distintos datos, o son datos de diversas variables; no obstante, son variables interrelacionadas. Es decir, el comportamiento de un dato no depende obligatoriamente del comportamiento del otro dato. 
+            p.mb-0 #[b Los datos son independientes]: pese a que se encuentran relacionados, corresponden a distintos datos, o son datos de diversas variables; no obstante, son variables interrelacionadas. Es decir, el comportamiento de un dato no depende obligatoriamente del comportamiento del otro dato. 
           
           div(titulo="Origen del dato")
-            p.mb-0 #[b Los datos poseen su propio origen]. Con esto se quiere resaltar que la naturaleza del dato no puede, ni debe modificarse.
+            p.mb-0 #[b Los datos poseen su propio origen]: con esto se quiere resaltar que la naturaleza del dato no puede, ni debe modificarse.
 
           div(titulo="Naturaleza del dato")
-            p.mb-0 #[b Se requiere conocimiento de las personas o procesos, en cuanto a la naturaleza del dato]. El dato amerita conocerse en toda su extensión; para qué sirve, con qué se relaciona, cómo se obtiene, cómo debe almacenarse, cómo ese dato aporta en la toma de decisiones de la empresa, cómo ese dato, afecta a los demás datos de la jerarquía.
+            p.mb-0 #[b Se requiere conocimiento de las personas o procesos, en cuanto a la naturaleza del dato]: el dato amerita conocerse en toda su extensión; para qué sirve, con qué se relaciona, cómo se obtiene, cómo debe almacenarse, cómo ese dato aporta en la toma de decisiones de la empresa, cómo ese dato, afecta a los demás datos de la jerarquía.
 
           div(titulo="Relación de los nodos")
-            p.mb-0 #[b La relación de los nodos debe mantenerse]. Dependiendo de la cuantía y cantidad de niveles jerárquicos, puede correrse el riesgo que, en el análisis, se vaya perdiendo el relacionamiento. Es por esto que las personas, procesos y recursos involucrados en la gestión de la jerarquía de los datos, son fundamentales. 
+            p.mb-0 #[b La relación de los nodos debe mantenerse]: dependiendo de la cuantía y cantidad de niveles jerárquicos, puede correrse el riesgo que, en el análisis, se vaya perdiendo el relacionamiento. Es por esto que las personas, procesos y recursos involucrados en la gestión de la jerarquía de los datos, son fundamentales. 
 
       .col-lg-3(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_3/img_5.png', alt='Texto que describa la imagen') 
@@ -207,7 +207,7 @@
 
     .row.mb-5
       .col-lg-7.mb-5.mb-md-0(data-aos="fade-right")
-        p Las bases de datos relacionadas son aquellas bases de datos de diferentes fuentes, que al ser coherentes y consistentes, pueden ser fácilmente relacionadas, comparadas y contrastadas; es decir, son bases de datos independientes, pero que poseen características similares en su diseño, y se hace fácil, para el analista, utilizarlas como base de comparación, e incluso para alimentar de la mejor manera, la base de datos original. Por ejemplo, al interior de la empresa, pueden ser base de datos relacionales las de producción de la línea 1 de ensamble de un producto, con los de la línea 2; o en el caso de producción de panes, la base de datos de costos de producción (estructura de costos), de los panes del tipo 1, con los de los panes de tipo 2. En el caso que la productividad de un tipo de pan sea mejor que la del otro tipo, pueden compararse datos y detectarse variables claves que pueden aportar a la mejora.
+        p Las bases de datos relacionales son aquellas bases de datos de diferentes fuentes, que al ser coherentes y consistentes, pueden ser fácilmente relacionadas, comparadas y contrastadas; es decir, son bases de datos independientes, pero que poseen características similares en su diseño, y se hace fácil, para el analista, utilizarlas como base de comparación, e incluso para alimentar de la mejor manera, la base de datos original. Por ejemplo, al interior de la empresa, pueden ser base de datos relacionales las de producción de la línea 1 de ensamble de un producto, con los de la línea 2; o en el caso de producción de panes, la base de datos de costos de producción (estructura de costos), de los panes del tipo 1, con los de los panes del tipo 2. En el caso que la productividad de un tipo de pan sea mejor que la del otro tipo, pueden compararse datos y detectarse variables claves que pueden aportar a la mejora.
 
       .col-lg-5(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_3/img_11.png', alt='Texto que describa la imagen')
@@ -278,20 +278,45 @@
             figure
               img.img-a(src='@/assets/curso/temas/tema_3/img_16.svg', alt='Texto que describa la imagen')
           .tarjeta.col_tar.text-white.p-3(x="13%" y="75%" numero="+")
-            p.mb-0 Tener claridad del tipo de dato necesario. 
-            p.mb-0 Obtener datos de fuentes de datos relevantes, veraces y permanentemente disponibles.
-            p.mb-0 Organizar los datos en función de las necesidades de análisis.
-            p Conocer el modelo de base de datos requerida por la empresa.
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Tener claridad del tipo de dato necesario. 
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Obtener datos de fuentes de datos relevantes, veraces y permanentemente disponibles.
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Organizar los datos en función de las necesidades de análisis.
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Conocer el modelo de base de datos requerida por la empresa.
 
           .tarjeta.col_tar.text-white.p-3(x="51%" y="13%" numero="+")
-            p.mb-0 Obtener datos consistentes y coherentes a partir de la depuración.
-            p.mb-0 Convertir, si es necesario, datos en otras unidades de análisis, de acuerdo con las necesidades de la empresa (compatibilidad de datos).
-            p.mb-0 Realizar nuevos procesos de depuración de datos irrelevantes.
-            p.mb-0 Ordenar y filtrar datos. 
-            p.mb-0 Muchas veces es necesaria la traducción de datos en un lenguaje comprensible al interior de la empresa.
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Obtener datos consistentes y coherentes a partir de la depuración.
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Convertir, si es necesario, datos en otras unidades de análisis, de acuerdo con las necesidades de la empresa (compatibilidad de datos).
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Realizar nuevos procesos de depuración de datos irrelevantes.
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Ordenar y filtrar datos. 
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Muchas veces es necesaria la traducción de datos en un lenguaje comprensible al interior de la empresa.
           .tarjeta.col_tar.text-white.p-3(x="90%" y="75%" numero="+")
-            p.mb-0 Definir el proceso de carga de los datos, la cual puede ser directa en función de la base de datos de origen, si es de fuentes externas o de otros procesos, o carga manual en la realidad diaria de los procesos, o carga mecánica programada con los equipos de producción.
-            p Con el apoyo de expertos en informática, carga de datos complejos que requieren ser cargados bajo lenguajes de programación.
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Definir el proceso de carga de los datos, la cual puede ser directa en función de la base de datos de origen, si es de fuentes externas o de otros procesos, o carga manual en la realidad diaria de los procesos, o carga mecánica programada con los equipos de producción.
+              li 
+                i.fas.fa-angle-right          
+                p.mb-0 Con el apoyo de expertos en informática, carga de datos complejos que requieren ser cargados bajo lenguajes de programación.
 
     p.mb-5 Comprender esta nomenclatura para la gestión de los datos en la analítica de datos que amerita la inteligencia empresarial, implica que cobran importancia los sistemas de información en la empresa, surgiendo la necesidad de optar por Sistemas de Gestión de Bases de Datos (SGBD), cuya mayor formalidad y tecnificación, proveerá mayor calidad a la obtención de información para la toma de decisiones. 
 

@@ -195,7 +195,7 @@ export default {
     {
       termino: 'Bases de datos',
       significado:
-        'reservorios de datos estandarizados o dinámicos, de fuentes externas o internas a la empresa y que son manejadas, en su mayoría, por herramientas de gestión de datos, es decir, <em>softwares</em> especializados.',
+        'reservorios de datos estandarizados o dinámicos, de fuentes externas o internas a la empresa y que son manejadas, en su mayoría, por herramientas de gestión de datos, es decir, <em>software</em> especializados.',
     },
     {
       termino: 'Calidad de la información',
@@ -263,7 +263,7 @@ export default {
 
     {
       referencia:
-        'Rodríguez J. (2017). <em>Los principales softwares de investigación cuantitativa</em>. Fundación para la Investigación Social Avanzada.',
+        'Rodríguez J. (2017). <em>Los principales software de investigación cuantitativa</em>. Fundación para la Investigación Social Avanzada.',
       link:
         'https://isdfundacion.org/2017/10/10/software-de-investigacion-social-y-de-mercados-investigacion-cuantitativa/',
     },

@@ -64,7 +64,7 @@
           .col-md-4.mb-4.mb-md-0
             h4 Apropiación de la herramienta
             p Depende del tipo de empresa y debe ajustarse al tamaño de la empresa, al tipo de procesos, al tipo de informes a generar, y a las capacidades de alfabetización tecnológica del personal de la empresa. Pueden incluso ser exclusivas de la empresa, o ser sistemas de información comercial, obtenidos bajo licencia.
-            p Debe mantenerse el lema que dice: primero es la estrategia y luego la estructura; es decir, que si se amerita de una herramienta X, la empresa debe hacer las adaptaciones necesarias a sus procesos, para poder obtener los resultados deseados con el uso de la herramienta de gestión de los datos.        
+            p Debe mantenerse el lema que dice: "primero es la estrategia y luego la estructura"; es decir, que si se amerita de una herramienta X, la empresa debe hacer las adaptaciones necesarias a sus procesos, para poder obtener los resultados deseados con el uso de la herramienta de gestión de los datos.        
           .col-md-7
             img.img-a(src="@/assets/curso/temas/tema_2/img_4.png")
         .row.justify-content-center
@@ -99,7 +99,7 @@
         img.img-a(src='@/assets/curso/temas/tema_2/img_9.png', alt='Texto que describa la imagen')
 
       .col-lg-7(data-aos="fade-left")
-        p Las herramientas de gestión de datos han variado, con el transcurrir del tiempo, al ritmo de la evolución tecnológica. Así, como se conoce a Excel, una herramienta básica de gestión de datos cuantitativos, la tendencia tecnológica en la administración de los datos, ha generado herramientas como la “la nube” o reservorio “no físico” (desde 1990); es decir, no se encuentra alojado en el disco duro del computador, y funciona como almacén de datos masivos (Solved Magazine, 2020). Esta herramienta es ofrecida por la Internet, y servidores como Google, la maneja en una nube conocida como Drive, que permite a las personas el almacenamiento gratuito hasta una cierta capacidad de datos. Mundialmente, el Google Drive es reconocido como la herramienta que reemplazó a Google Docs, dadas sus mayores y mejores utilidades y capacidades de almacenamiento y transmisión y modificación de la información, en grupos de trabajo. 
+        p Las herramientas de gestión de datos han variado, con el transcurrir del tiempo, al ritmo de la evolución tecnológica. Así, como se conoce a #[i Excel], una herramienta básica de gestión de datos cuantitativos, la tendencia tecnológica en la administración de los datos, ha generado herramientas como “la nube” o reservorio “no físico” (desde 1990); es decir, no se encuentra alojado en el disco duro del computador, y funciona como almacén de datos masivos (Solved Magazine, 2020). Esta herramienta es ofrecida por la Internet, y servidores como #[i Google], la maneja en una nube conocida como #[i Drive], que permite a las personas el almacenamiento gratuito hasta una cierta capacidad de datos. Mundialmente, el #[i Google Drive] es reconocido como la herramienta que reemplazó a #[i Google Docs], dadas sus mayores y mejores utilidades y capacidades de almacenamiento y transmisión y modificación de la información, en grupos de trabajo. 
 
 
     separador
@@ -141,9 +141,9 @@
           .col-md-6.mb-4.mb-md-0
             img.img-a(src='@/assets/curso/temas/tema_2/img_13.png', alt='Texto que describa la imagen')        
           .col-md-6
-            p.mb-0 Una vez se poseen los datos, sea guardados en el computador para su procesamiento con herramientas básicas como Excel o para #[i software] especializados, los mismos deben reestructurarse, agruparse, conglomerarse o mostrarse en recursos visuales o gráficos de mayor utilidad; tal es el caso de tablas, gráficos, u hojas de documentos, bajo un orden específico, que se determina a partir del tipo de dato y de la funcionalidad para el análisis. 
+            p.mb-0 Una vez se poseen los datos, sea guardados en el computador para su procesamiento con herramientas básicas como #[i Excel] o para #[i software] especializados, los mismos deben reestructurarse, agruparse, conglomerarse o mostrarse en recursos visuales o gráficos de mayor utilidad; tal es el caso de tablas, gráficos, u hojas de documentos, bajo un orden específico, que se determina a partir del tipo de dato y de la funcionalidad para el análisis. 
 
-    p.mb-5 En Colombia, una institución que se puede tomar, como ejemplo, en cuanto a la preparación y uso de <i>set </i>de datos por la complejidad de los datos que maneja, es el Departamento Administrativo de la Gestión Pública, ente que ofrece, al público en general, su modelo de alistamiento y distribución de datos en el caso particular de la medición del desempeño institucional, bajo el esquema del modelo figurativo FURAG, siglas del “Formulario Único de Reportes y Avances de Gestión”, constituido como registro administrativo y creado con el propósito de recolectar datos sobre el avance en la implementación de las políticas de gestión y desempeño institucional, que hacen parte del Modelo Integrado de Planeación y Gestión (MIPG) de la gestión pública nacional.Si se revisa este modelo, se tiene un alistamiento de <i>set </i>de datos estratégico construido como se muestra en la Figura 2. 
+    p.mb-5 En Colombia, una institución que se puede tomar, como ejemplo, en cuanto a la preparación y uso de <i>set </i>de datos por la complejidad de los datos que maneja, es el Departamento Administrativo de la Gestión Pública, ente que ofrece, al público en general, su modelo de alistamiento y distribución de datos en el caso particular de la medición del desempeño institucional, bajo el esquema del modelo figurativo FURAG, siglas del “Formulario Único de Reportes y Avances de Gestión”, constituido como registro administrativo y creado con el propósito de recolectar datos sobre el avance en la implementación de las políticas de gestión y desempeño institucional, que hacen parte del Modelo Integrado de Planeación y Gestión (MIPG) de la gestión pública nacional. Si se revisa este modelo, se tiene un alistamiento de <i>set </i>de datos estratégico construido como se muestra en la Figura 2. 
 
     .row.mb-5
       .col-lg-1
@@ -164,7 +164,7 @@
       .col-lg-5(data-aos="fade-left")
         img.img-a(src='@/assets/curso/temas/tema_2/img_15.png', alt='Texto que describa la imagen')
 
-    p.mb-5 En la Figura 3 se muestra un ejemplo de cómo el analista, modeló su esquema de alistamiento de datos, y luego de la obtención de los datos pasó a manejarlo a través de herramientas de gestión de datos. 
+    p.mb-5 En la Tabla 1 se muestra un ejemplo de cómo el analista, modeló su esquema de alistamiento de datos, y luego de la obtención de los datos pasó a manejarlo a través de herramientas de gestión de datos. 
 
     .row.justify-content-center
       .col-lg-8
